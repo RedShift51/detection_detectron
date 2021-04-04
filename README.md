@@ -33,3 +33,6 @@ Few notes:
 2) I have to tune threshold for testing.
 
 And I suppose, it is more than possible to train model for few classes.
+
+Metrics during training
+![image](https://user-images.githubusercontent.com/29106459/113508886-2a597380-955b-11eb-8cb3-9e8cb94921e6.png)
