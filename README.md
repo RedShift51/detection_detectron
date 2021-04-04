@@ -33,6 +33,7 @@ Examples of inference on train data set:
 ![41](https://user-images.githubusercontent.com/29106459/113507086-1f99e100-9551-11eb-9513-37437c08ea16.png)
 ![59](https://user-images.githubusercontent.com/29106459/113507090-232d6800-9551-11eb-904c-c7cb0485af8c.png)
 
+
 On validation images:
 ![3](https://user-images.githubusercontent.com/29106459/113507106-36d8ce80-9551-11eb-96f3-926620f42f86.png)
 ![7](https://user-images.githubusercontent.com/29106459/113507117-3fc9a000-9551-11eb-85ff-e3d67ae5afe0.png)
