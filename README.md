@@ -16,9 +16,11 @@ Histograms are represented below.
 ![test_iou](https://user-images.githubusercontent.com/29106459/113516549-8637f280-9583-11eb-9785-802bfe132a48.png)
 
 As you can see on histograms, some objects on train/test stages are not recognized, this happened due to
-insufficient manual tuning of parameters related to test. Examples of detections on training and testing parts of dataset are presented below.
+insufficient manual tuning of parameters related to test. But objects on images are relatively small, and 
+such results show us, that detection of deseases (mostly) is accurate.
+Examples of detections on training and testing parts of dataset are presented below.
 
-Examples of inference on train data set:
+Examples of inference on train images:
 
 ![3](https://user-images.githubusercontent.com/29106459/113507007-9da9b800-9550-11eb-91c9-60ba20dab9c6.png)
 ![35](https://user-images.githubusercontent.com/29106459/113507035-d6499180-9550-11eb-9baf-6563f3c2d25b.png)
@@ -33,7 +35,7 @@ Examples of inference on train data set:
 ![59](https://user-images.githubusercontent.com/29106459/113507090-232d6800-9551-11eb-904c-c7cb0485af8c.png)
 
 
-On validation images:
+On test images:
 ![3](https://user-images.githubusercontent.com/29106459/113507106-36d8ce80-9551-11eb-96f3-926620f42f86.png)
 ![7](https://user-images.githubusercontent.com/29106459/113507117-3fc9a000-9551-11eb-85ff-e3d67ae5afe0.png)
 ![6](https://user-images.githubusercontent.com/29106459/113507120-49530800-9551-11eb-99fd-5ea99dc69a70.png)
