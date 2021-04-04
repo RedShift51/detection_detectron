@@ -4,9 +4,12 @@ which is responsible to detect and to recognize diseases on x-ray images.
 Such tasks in computer vision is preferred to solve with CNN (convolutional neural networks) 
 with object detection outputs. 
 Initially we have ~900 x-ray images, random 95% part of them is for training, another part is for testing.  
-Further I will provide examples on several images of both parts. 
+Further I will provide examples on several images for both parts. 
 
-For
+How to estimate quality of detections obtained by our algorithm? We have Intersection over Union (IoU) metric,
+which can be used to evaluate accuracy of bounding boxes sizes. The key idea of this metric is:
+![image](https://user-images.githubusercontent.com/29106459/113515345-a7491500-957c-11eb-8e45-eecc757636e7.png)
+
 
 Trained few architectures (the best choice is resnet 50 + FPN + faster rcnn (16 roi to rpn, 1 class))
 
