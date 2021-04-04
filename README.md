@@ -35,6 +35,7 @@ Examples of inference on train images:
 ![59](https://user-images.githubusercontent.com/29106459/113507090-232d6800-9551-11eb-904c-c7cb0485af8c.png)
 
 
+
 On test images:
 ![3](https://user-images.githubusercontent.com/29106459/113507106-36d8ce80-9551-11eb-96f3-926620f42f86.png)
 ![7](https://user-images.githubusercontent.com/29106459/113507117-3fc9a000-9551-11eb-85ff-e3d67ae5afe0.png)
@@ -46,6 +47,12 @@ On test images:
 ![29](https://user-images.githubusercontent.com/29106459/113507162-79021000-9551-11eb-94a9-95f55d7a0dc5.png)
 ![13](https://user-images.githubusercontent.com/29106459/113507169-87502c00-9551-11eb-8e2f-66ba3b3cd9b8.png)
 ![24](https://user-images.githubusercontent.com/29106459/113507175-946d1b00-9551-11eb-8b6b-91fd858f82ba.png)
+
+
+All comparisons between predicted and GT (and trained model) you can find on 
+
+
+
 
 =================================================
 
