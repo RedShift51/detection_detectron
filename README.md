@@ -7,8 +7,14 @@ Initially we have ~900 x-ray images, random 95% part of them is for training, an
 Further I will provide examples on several images for both parts. 
 
 How to estimate quality of detections obtained by our algorithm? We have Intersection over Union (IoU) metric,
-which can be used to evaluate accuracy of bounding boxes sizes. The key idea of this metric is:
+which can be used to evaluate accuracy of bounding boxes sizes. For 2 rectangles (bounding boxes) IoU is equal to:
 ![image](https://user-images.githubusercontent.com/29106459/113515345-a7491500-957c-11eb-8e45-eecc757636e7.png)
+
+For the training part IoU = 0.6, for testing part IoU = 0.35.
+Histograms are represented below.
+![train_iou](https://user-images.githubusercontent.com/29106459/113516547-8506c580-9583-11eb-840c-8773531bbfea.png)
+![test_iou](https://user-images.githubusercontent.com/29106459/113516549-8637f280-9583-11eb-9785-802bfe132a48.png)
+
 
 
 Trained few architectures (the best choice is resnet 50 + FPN + faster rcnn (16 roi to rpn, 1 class))
