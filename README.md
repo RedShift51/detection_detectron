@@ -49,6 +49,10 @@ On test images:
 ![24](https://user-images.githubusercontent.com/29106459/113507175-946d1b00-9551-11eb-8b6b-91fd858f82ba.png)
 
 
+
+Finally, we have a model, which can detect diseases on x-ray photos with relatively good precision.
+
+
 All comparisons between predicted and GT (and trained model) you can find on 
 
 
