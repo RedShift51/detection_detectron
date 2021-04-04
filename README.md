@@ -48,7 +48,11 @@ On test images:
 ![24](https://user-images.githubusercontent.com/29106459/113507175-946d1b00-9551-11eb-8b6b-91fd858f82ba.png)
 
 =================================================
+
+
 Trained few architectures (the best choice is resnet 50 + FPN + faster rcnn (16 roi to rpn, 1 class))
+
+
 Few notes:
 1) I have to tune NMS to reject few bounding boxes for one object in predictions in the same "grid cell".
 2) I have to tune threshold for testing.
