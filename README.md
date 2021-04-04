@@ -1,4 +1,13 @@
 # detection_task
+The main goal of the task is to provide algorithm,
+which is responsible to detect and to recognize diseases on x-ray images. 
+Such tasks in computer vision is preferred to solve with CNN (convolutional neural networks) 
+with object detection outputs. 
+Initially we have ~900 x-ray images, random 95% part of them is for training, another part is for testing.  
+Further I will provide examples on several images of both parts. 
+
+For
+
 Trained few architectures (the best choice is resnet 50 + FPN + faster rcnn (16 roi to rpn, 1 class))
 
 Examples of inference on train data set:
