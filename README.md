@@ -15,9 +15,8 @@ Histograms are represented below.
 ![train_iou](https://user-images.githubusercontent.com/29106459/113516547-8506c580-9583-11eb-840c-8773531bbfea.png)
 ![test_iou](https://user-images.githubusercontent.com/29106459/113516549-8637f280-9583-11eb-9785-802bfe132a48.png)
 
-
-
-Trained few architectures (the best choice is resnet 50 + FPN + faster rcnn (16 roi to rpn, 1 class))
+As you can see on histograms, some objects on train/test stages are not recognized, this happened due to
+insufficient manual tuning of parameters related to test. Examples of detections on training and testing parts of dataset are presented below.
 
 Examples of inference on train data set:
 
@@ -46,7 +45,8 @@ On validation images:
 ![13](https://user-images.githubusercontent.com/29106459/113507169-87502c00-9551-11eb-8e2f-66ba3b3cd9b8.png)
 ![24](https://user-images.githubusercontent.com/29106459/113507175-946d1b00-9551-11eb-8b6b-91fd858f82ba.png)
 
-
+=================================================
+Trained few architectures (the best choice is resnet 50 + FPN + faster rcnn (16 roi to rpn, 1 class))
 Few notes:
 1) I have to tune NMS to reject few bounding boxes for one object in predictions in the same "grid cell".
 2) I have to tune threshold for testing.
