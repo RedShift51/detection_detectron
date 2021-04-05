@@ -20,7 +20,7 @@ insufficient manual tuning of parameters related to test. But objects on images 
 such results show us, that detection of deseases (mostly) is accurate.
 Examples of detections on training and testing parts of dataset are presented below.
 
-Examples of inference on train images (output - resultof detection via CNN):
+Examples of inference on train images (output - result of detection via CNN):
 
 ![3](https://user-images.githubusercontent.com/29106459/113507007-9da9b800-9550-11eb-91c9-60ba20dab9c6.png)
 ![35](https://user-images.githubusercontent.com/29106459/113507035-d6499180-9550-11eb-9baf-6563f3c2d25b.png)
