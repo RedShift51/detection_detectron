@@ -1,4 +1,4 @@
-# detection_task
+# detection detectron
 The main goal of the task is to provide algorithm,
 which is responsible to detect and to recognize diseases on x-ray images. For the simplicity I merged all classes into one just to detect a desease.
 Such tasks in computer vision is preferred to solve with CNN (convolutional neural networks) 
